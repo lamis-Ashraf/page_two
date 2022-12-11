@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+@font-face{
+    font-family:sakkal\ Majalla1 ;
+    src: url(../fonts/sakkal\ Majalla1.ttf);
+}
+@font-face{
+    font-family:sakkal\ Majalla ;
+    src: url(../fonts/sakkal\ Majalla.ttf);
+}
+.contant{
+    background: url(../img/back\ pag\ tow.jpeg);
+    height: 90.2vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background{
+    color: #ffffff;
+  padding-top: 5rem ;
+  padding-left: 7rem;
+  font-family:sakkal\ Majalla1 ;
+
+}
+.background h2{
+    font-size: 60px;
+    font-family:sakkal\ Majalla ;
+}
+.background p{
+    font-size: 25px;
+    padding-left: 0rem;
+    font-family:sakkal\ Majalla ;
+}
+.income{
+    background-color: transparent;
+    width: 400px;
+    /* height: 90px; */
+    margin-left: 9rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  height: 430px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    /* text-align: center; */
+    border-width: 2px 0 2px 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    position: relative;
+    translate: bottom 5rem;
+}
+.income::after{
+    content: "";
+    position: absolute;
+    background-image:linear-gradient(to bottom, #ffffff, #fff 41%, transparent 10%, transparent 88%, #ffffff 61%);
+   
+    width: 2px;
+    right: -2px;
+    top: -2px;
+    height: calc(100% + 4px);
+}
+footer{
+    height: 7vh;
+    padding: .5rem;
+    background: linear-gradient(to left, #b8bae3 2% , #338f92 98%);
+
+}
+.div_footer{
+    display: flex;
+}
+.first{
+    font-family:sakkal\ Majalla1 ;
+    font-size: 19px;
+    color: #ffffff;
+    
+}
+.second{
+    font-family:sakkal\ Majalla1 ;
+    font-size: 12px;
+    color: #ffffff;
+    translate: top 12px;
+}

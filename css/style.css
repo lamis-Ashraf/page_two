@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:sakkal\ Majalla1 ;
+    src: url(../fonts/sakkal\ Majalla1.ttf);
+}
+@font-face{
+    font-family:sakkal\ Majalla ;
+    src: url(../fonts/sakkal\ Majalla.ttf);
+}
+.container{
+ background: url(../img/backgrouond.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+height: 70vh;
+
+}
+.form{
+    background-color: #767db8;
+    opacity: .8;
+    width: 22rem;
+     margin: auto; 
+     /* margin-top: 13rem; */
+     margin-bottom: 3rem;
+    padding:2rem;
+    margin-left: 10rem; 
+    translate: -2px 30px; 
+  
+}
+.login{
+
+    background-color: #767db8;
+    /* margin-top: 10rem; */
+    opacity: .8;
+    width: 22rem;
+     margin: auto; 
+    padding: 1rem 2rem;
+    font-family:sakkal\ Majalla ;
+    margin-left: 10rem; 
+    
+}
+
+
+.parent{
+    padding-top: 12rem;
+    display: flex;
+}
+.login{
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    font-family:sakkal\ Majalla ;
+}
+.lable_one{
+padding:1rem 0rem;
+color: #ffffff;
+font-family:sakkal\ Majalla ;
+
+}
+.lable_one label{
+    font-family:sakkal\ Majalla1 ;
+    font-size: 22px;
+}
+.lable_one input{
+        background-color: #a4b6ce;
+    height: 2rem;
+    border-radius: .1rem ;
+    border: none;
+    width: 190px;
+    
+}
+section{
+    background: linear-gradient(to right ,#6b69d5 , #3990b7 , #1fa2a7 );
+    height: 20vh;
+    width:100%;
+    /* translate: -2px -125px; */
+}
+.tourism{
+    padding-left: 15rem;
+    color: #ffffff;
+    font-size: 22px;
+    
+}
+.pic{
+    display: flex;
+    translate: 2rem;
+    padding-top: 2rem;
+
+}
+.ministry{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.div_img{
+    padding-top: 17rem;
+    padding-left: 3rem;
+}
+.div_img span{
+    font-size: 60px;
+    color: #ffffff;
+    padding-left: 2rem;
+    font-family:sakkal\ Majalla ;
+}
+footer{
+    height: 10vh;
+    padding: .5rem;
+    margin-top: 0rem;
+    background: linear-gradient(to left, #b8bae3 2% , #338f92 98%);
+
+}
+.div_footer{
+    display: flex;
+}
+.first{
+    font-family:sakkal\ Majalla1 ;
+    font-size: 19px;
+    color: #ffffff;
+    
+}
+.second{
+    font-family:sakkal\ Majalla1 ;
+    font-size: 12px;
+    color: #ffffff;
+    translate: top 12px;
+}
+
+
+
+
+

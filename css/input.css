@@ -1,0 +1,202 @@
+*{
+
+    margin: 0px;
+    padding: 0;
+
+
+}
+@font-face{
+    font-family:sakkal\ Majalla1 ;
+    src: url(../fonts/sakkal\ Majalla1.ttf);
+}
+@font-face{
+    font-family:sakkal\ Majalla ;
+    src: url(../fonts/sakkal\ Majalla.ttf);
+}
+.proposal{
+        background-color: transparent;
+
+        width: 30px;
+        height: 9px;
+        margin-left: .3rem;
+        padding-top: 3rem;
+
+
+        font-size: 36px;
+        color: rgb(155, 155, 155);
+        text-decoration: none;
+        display: block;
+        border-width: 2px 0 2px 2px;
+        border-style: solid;
+        border-color: rgb(155, 155, 155);
+        position: relative;
+        translate: top -100;
+    }
+    .proposal::after{
+        content: "";
+        position: absolute;
+        background-image:linear-gradient(to bottom, rgb(155, 155, 155), rgb(155, 155, 155) 26%, transparent 10%, transparent 88%, rgb(155, 155, 155) 61%);
+       
+        width: 2px;
+        right: -2px;
+        top: -2px;
+        height: calc(100% + 4px);
+    }
+    .class-title{
+    
+        translate: 10px -38px;
+        color: #35a8a6;
+        font-family:sakkal\ Majalla ;
+    }
+    .cycle{
+        margin-left: 20rem;
+        width: 300px;
+        height: 50px;
+        background: linear-gradient(to right, #b8bae3 2% , #a2dddf 98%);
+display: flex;
+        border-radius: 12px;
+        
+        
+    }
+    .cycle2{
+        width: 130px;
+        height: 50px;
+        background: linear-gradient(to left, #b8bae3 98% );
+
+        border-radius: 26px;
+        border-right: 5px solid #fff;
+        /* margin-right: 3rem; */
+   
+    }
+    .cycle2 p{
+        color:#fff;
+        font-size: 25px;
+        text-align: center;
+        /* padding-top: .6rem; */
+        translate: -2px 8px;
+        font-family:sakkal\ Majalla ;
+
+    }
+    .cycle3{
+        width: 190px;
+        height: 48px;
+        background: linear-gradient(to right, #b8bae3 2% , #a2dddf 98%);
+border: none;
+        border-radius: 13px;
+    }
+.search{
+    margin-left: 22rem;
+    margin-top: 1rem;
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(to right, #b8bae3 2% , #a2dddf 98%);
+display: flex;
+    border-radius: 12px;
+    border: none;
+
+}
+.search::placeholder{
+    color: #ffffff;
+    padding-left: 1rem;
+}
+/* .sser{
+
+    color:#fff;
+    font-size: 23px;
+    padding-top: .6rem;
+    font-family:sakkal\ Majalla ;
+    translate: 10px -8px;
+    padding-right: 6.1rem;
+
+} */
+.search1{
+    color:#fff;
+    font-size: 23px;
+    font-family:sakkal\ Majalla ;
+    background-color: #7761db;
+    padding-left: .5rem;
+
+    border-radius: 13px;
+    width: 59px;
+    translate: 484px -32px;
+}
+.search1 i{
+    padding-right: .5rem;
+    translate: 10px 4px;
+    color: #ffffff;
+}
+.detailes{
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+    font-family:sakkal\ Majalla ;
+    border-bottom: 5px solid #fff;
+  
+}
+.detailes0{
+    display: flex;
+    margin-left: 19rem;
+    font-size: 30px;
+    margin-top: 2rem;
+    font-family:sakkal\ Majalla ;
+    color: #868be0;
+    border-bottom: 0px solid #fff;
+}
+.detailes1{
+    display: flex;
+    /* padding: 22rem; */
+    font-size: 25px;
+    font-family:sakkal\ Majalla ;
+color: #fff;
+  
+}
+.per{
+    padding-right: 4rem;
+    padding-left: 1.5rem;
+    
+
+}
+.rowr{
+    background: linear-gradient(to right, #b8bae3 2% , #a2dddf 98%);
+    border-radius: 40px;
+    width: 300px;
+    /* padding: 1rem; */
+    text-align: center;
+    margin-left: 19rem;
+}
+button{
+    text-align: center;
+    padding: .1rem 2rem;
+    border-radius: 20px;
+    border: none;
+    margin-left:25rem;
+    margin-top: .5rem;
+    margin-bottom: 2.5rem;
+    color: #fff;
+    font-size: 35px;
+    font-family:sakkal\ Majalla ;
+    background: linear-gradient(to right, #b8bae3 2% , #a2dddf 98%);
+}
+footer{
+    height: 7vh;
+    padding: .5rem;
+    background: linear-gradient(to left, #b8bae3 2% , #338f92 98%);
+
+}
+.div_footer{
+    display: flex;
+}
+.first{
+    font-family:sakkal\ Majalla1 ;
+    font-size: 19px;
+    color: #ffffff;
+    
+}
+.second{
+    font-family:sakkal\ Majalla1 ;
+    font-size: 12px;
+    color: #ffffff;
+    translate: top 12px;
+}
+
+
